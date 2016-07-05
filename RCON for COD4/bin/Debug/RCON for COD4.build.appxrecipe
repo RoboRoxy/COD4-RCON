@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-DJ31S69</Machine>
+    <WindowsUser>Dilshan Jayaweera</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ec521bad-7af5-41bb-96f1-528145df7fe5</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\bin\Debug\RCON for COD4.exe">
+      <PackagePath>RCON for COD4.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\Assets\mp_convoy.png">
+      <PackagePath>Assets\mp_convoy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\bin\Debug\RCON for COD4.xr.xml">
+      <PackagePath>RCON for COD4.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dilshan Jayaweera\Documents\Visual Studio 2013\Projects\RCON for COD4\RCON for COD4\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

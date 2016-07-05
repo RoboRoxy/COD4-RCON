@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="RCON_for_COD4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RCON_for_COD4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <ScrollViewer x:Name="ScrollViewer1">
+        <StackPanel x:Name="StackPanel1">
+            <Grid Height="944" Width="389">
+                <TextBox x:Name="txtCommandText" HorizontalAlignment="Left" Margin="10,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369"/>
+                <Button x:Name="btnSendCommand" Content="Send Command" HorizontalAlignment="Left" Margin="10,188,0,0" VerticalAlignment="Top" Width="234" Click="btnSendCommand_Click"/>
+                <TextBlock x:Name="lblPredefinedCommands" HorizontalAlignment="Left" Margin="10,506,0,0" TextWrapping="Wrap" Text="Change Map" VerticalAlignment="Top" Height="25" Width="234" FontSize="21" Foreground="#FF336CCF"/>
+                <RadioButton x:Name="radioButtonNormalMap" Content="Normal Map" HorizontalAlignment="Left" Margin="10,547,0,0" VerticalAlignment="Top" GroupName="mapmode" IsChecked="True"/>
+                <RadioButton x:Name="radioButtonDevmap" Content="Cheat Map" HorizontalAlignment="Left" Margin="10,595,0,0" VerticalAlignment="Top" GroupName="mapmode"/>
+                <TextBlock x:Name="lblHost" HorizontalAlignment="Left" Margin="10,34,0,0" TextWrapping="Wrap" Text="Host" VerticalAlignment="Top" Height="25" Width="76" FontSize="21" Foreground="#FF336CCF"/>
+                <TextBox x:Name="txtHost" HorizontalAlignment="Left" Margin="109,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.231,-0.489" Width="270"/>
+                <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="109,64,0,0" VerticalAlignment="Top" Width="270"/>
+                <TextBlock x:Name="lblPassword" HorizontalAlignment="Left" Margin="10,78,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Height="25" Width="94" FontSize="21" Foreground="#FF336CCF"/>
+                <ScrollViewer HorizontalAlignment="Left" Height="233" Margin="10,253,0,0" VerticalAlignment="Top" Width="369">
+                    <TextBlock x:Name="txtServerResponse" TextWrapping="Wrap"/>
+                </ScrollViewer>
+                <ListBox x:Name="listBoxMaps" HorizontalAlignment="Left" Height="234" Margin="10,661,0,0" VerticalAlignment="Top" Width="369" Background="#CCFFFFFF">
+                    <StackPanel Orientation="Horizontal" Tag="mp_convoy">
+                        <Image Margin="3" Source="Assets/mp_convoy.png"/>
+                        <TextBlock Margin="3" Text="Ambush" FontSize="15" />
+                    </StackPanel>
+                </ListBox>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
